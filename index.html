@@ -1,381 +1,394 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-        
-        <!--=============== REMIX ICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-        <title>Joshua Bennett Portfolio</title>
-    </head>
-    <body>
-        <!--=============== HEADER ===============-->
-        <header class="profile container">
-            <!-- Theme button -->
-            <i class="ri-moon-line change-theme" id="theme-button"></i>
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-            <div class="profile__container grid">
-                <div class="profile__data">
-                    <div class="profile__border">
-                        <div class="profile__perfil">
-                            <!-- Insert your image, according to the example size of the portfolio -->
-                            <img src="assets/img/me.png" alt="">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Ben Ross</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="profile container">
+        <!-- Theme button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <!-- Insert your image, according to the example size of the portfolio -->
+                        <img src="assets/img/profile.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Ben Ross</h2>
+                <h3 class="profile__profession">AI GPT Developer | Bot Developer | Data Scraping</h3>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">7</h3>
+                    <p class="profile__info-description">
+                        Years of <br> work
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">+84</h3>
+                    <p class="profile__info-description">
+                        Completed <br> projects
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">56</h3>
+                    <p class="profile__info-description">Satisfied <br> customers</p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <div class="profile__buttons-small">
+                    <!-- Insert a real number plus country code -->
+                    <a href="https://api.whatsapp.com/send?phone=14432128701&text=Hello, more information!"
+                        target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="https://t.me/coooolboy2023" target="_blank" class="button button__small button__gray">
+                        <i class="ri-telegram-line"></i>
+                    </a>
+                    <a href="https://discord.com/users/solarspecter" target="_blank"
+                        class="button button__small button__gray">
+                        <i class="ri-discord-line"></i>
+                    </a>
+                    <!-- Insert your brand name or profile -->
+                    <a href="mailto:energeticguy1017@gmail.com?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
+                        target="_blank" class="button button__small button__gray">
+                        <i class="ri-mail-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                    Projects
+                </button>
+                <button class="filters__button" data-target="#skills">
+                    Skills
+                </button>
+            </ul>
+
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div class="projects__content grid filters__active" data-content id="projects">
+                    <article class="projects__card">
+                        <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                        <img src="assets/img/fbref.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Scraping</span>
+                                <h3 class="projects__title">Easy-to-use source for football stats including player,
+                                    team, and league stats.
+                                </h3>
+                                <a href="https://drive.google.com/drive/folders/1fMftSYDQ-UslBueLO_sRxlLCrvNt05db?usp=sharing"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                        <img src="assets/img/wynnbet.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Scraping</span>
+                                <h3 class="projects__title">Legal Online Sports Betting and Casino | WynnBET Sportsbook
+                                </h3>
+                                <a href="https://drive.google.com/drive/folders/15kckF53MtMifUIMuFAtYpQ15Q0peyLwA?usp=sharing"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/publiccert.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Scraping</span>
+                                <h3 class="projects__title">Certified products - RISE</h3>
+                                <a href="https://drive.google.com/drive/folders/1ZIG8KQTG7LQWh4IAAICeGYQd5v6JZbBp?usp=sharing"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/gvk.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Scraping</span>
+                                <h3 class="projects__title">GVK.se</h3>
+                                <a href="https://drive.google.com/drive/folders/1i8iKeFYpaQUpDWxALN_S9IiRZpJ9RVVR?usp=sharing"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/bkr.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Scraping</span>
+                                <h3 class="projects__title">BKR: Start</h3>
+                                <a href="https://drive.google.com/drive/folders/1A47dmubJFw7ISzjeO5jrFOMJ7nYkknh1?usp=sharing"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/skool.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Scraping</span>
+                                <h3 class="projects__title">Skool.com - Official Site</h3>
+                                <a href="https://drive.google.com/drive/folders/1RWXen0r7JvSdGF32TvcnEGE_Gs-bArr5?usp=sharing"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/ice_breaker.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">LLM-Powered Applications with LangChain</span>
+                                <h3 class="projects__title">Ice Breaker
+                                </h3>
+                                <a href="https://github.com/Elite-AI-August/LangChain_LinkedIn_Ice_Breakers"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/job-search.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Scraping</span>
+                                <h3 class="projects__title">Jobs scraper library for LinkedIn, Indeed & ZipRecruiter
+                                </h3>
+                                <a href="https://github.com/Elite-AI-August/Job-Scraping"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!--=============== SKILLS ===============-->
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">Web Scraping</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Selenium</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Beautiful Soup</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Scrapy</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Zenrows</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Puppeteer</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Octoparse</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">ParseHub</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CAPTCHAs</h3>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <h2 class="profile__name">Joshua Bennett</h2>
-                    <h3 class="profile__profession">Python developer | Web-scraping | AI</h3>
-                </div>
+                    <div class="skills__area">
+                        <h3 class="skills__title">Artificial Intelligence</h3>
 
-                <div class="profile__info grid">
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">7</h3>
-                        <p class="profile__info-description">
-                            Years of <br> work
-                        </p>
-                    </div>
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">+84</h3>
-                        <p class="profile__info-description">
-                            Completed <br> projects
-                        </p>
-                    </div>
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">56</h3>
-                        <p class="profile__info-description">Satisfied <br> customers</p>
-                    </div>
-                </div>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
 
-                <div class="profile__buttons">
-                    <div class="profile__buttons-small">
-                        <!-- Insert a real number plus country code -->
-                        <a href="https://api.whatsapp.com/send?phone=14432128701&text=Hello, more information!" target="_blank" class="button button__small button__gray">
-                            <i class="ri-whatsapp-line"></i>
-                        </a>
-                        <a href="skype:live:.cid.e85c151d0dbd1eb?chat" target="_blank" class="button button__small button__gray">
-                            <i class="ri-skype-line"></i>
-                        </a>
-                        <a href="https://t.me/fieryfox617" target="_blank" class="button button__small button__gray">
-                            <i class="ri-telegram-line"></i>
-                        </a>
-                        <a href="https://discord.com/users/giuseppe1939" target="_blank" class="button button__small button__gray">
-                            <i class="ri-discord-line"></i>
-                        </a>
-                        <!-- Insert your brand name or profile -->
-                        <a href="mailto:mamienorman02@gmail.com?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can." target="_blank" class="button button__small button__gray">
-                            <i class="ri-mail-line"></i>
-                        </a>
+                                    <div>
+                                        <h3 class="skills__name">Machine Learning</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">OpenAI</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">LLM</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Chatbot</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">LangChain</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">NLP</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </section>
+    </main>
 
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <section class="filters container">
-                <!--=============== FILTERS TABS ===============-->
-                <ul class="filters__content">
-                    <button class="filters__button filter-tab-active" data-target="#projects">
-                        Projects
-                    </button>
-                    <button class="filters__button" data-target="#skills">
-                        Skills
-                    </button>
-                </ul>
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; By Ben Ross
+        </span>
+    </footer>
 
-                <div class="filters__sections">
-                    <!--=============== PROJECTS ===============-->
-                    <div class="projects__content grid filters__active" data-content id="projects">
-                        <article class="projects__card">
-                            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
-                            <img src="assets/img/fbref.png" alt="" class="projects__img">
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
 
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Scraping</span>
-                                    <h3 class="projects__title">Easy-to-use source for football stats including player, team, and league stats.
-                                    </h3>
-                                    <a href="https://drive.google.com/drive/folders/1fMftSYDQ-UslBueLO_sRxlLCrvNt05db?usp=sharing" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
 
-                        <article class="projects__card">
-                            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
-                            <img src="assets/img/wynnbet.png" alt="" class="projects__img">
-
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Scraping</span>
-                                    <h3 class="projects__title">Legal Online Sports Betting and Casino | WynnBET Sportsbook</h3>
-                                    <a href="https://drive.google.com/drive/folders/15kckF53MtMifUIMuFAtYpQ15Q0peyLwA?usp=sharing" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="projects__card">
-                            <img src="assets/img/publiccert.png" alt="" class="projects__img">
-
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Scraping</span>
-                                    <h3 class="projects__title">Certified products - RISE</h3>
-                                    <a href="https://drive.google.com/drive/folders/1ZIG8KQTG7LQWh4IAAICeGYQd5v6JZbBp?usp=sharing" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="projects__card">
-                            <img src="assets/img/gvk.png" alt="" class="projects__img">
-
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Scraping</span>
-                                    <h3 class="projects__title">GVK.se</h3>
-                                    <a href="https://drive.google.com/drive/folders/1i8iKeFYpaQUpDWxALN_S9IiRZpJ9RVVR?usp=sharing" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="projects__card">
-                            <img src="assets/img/bkr.png" alt="" class="projects__img">
-
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Scraping</span>
-                                    <h3 class="projects__title">BKR: Start</h3>
-                                    <a href="https://drive.google.com/drive/folders/1A47dmubJFw7ISzjeO5jrFOMJ7nYkknh1?usp=sharing" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="projects__card">
-                            <img src="assets/img/skool.png" alt="" class="projects__img">
-
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Scraping</span>
-                                    <h3 class="projects__title">Skool.com - Official Site</h3>
-                                    <a href="https://drive.google.com/drive/folders/1RWXen0r7JvSdGF32TvcnEGE_Gs-bArr5?usp=sharing" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="projects__card">
-                            <img src="assets/img/ice_breaker.png" alt="" class="projects__img">
-
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">LLM-Powered Applications with LangChain</span>
-                                    <h3 class="projects__title">Ice Breaker
-                                    </h3>
-                                    <a href="https://github.com/Elite-AI-August/LangChain_LinkedIn_Ice_Breakers" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="projects__card">
-                            <img src="assets/img/job-search.png" alt="" class="projects__img">
-
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Scraping</span>
-                                    <h3 class="projects__title">Jobs scraper library for LinkedIn, Indeed & ZipRecruiter
-                                    </h3>
-                                    <a href="https://github.com/Elite-AI-August/Job-Scraping" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!--=============== SKILLS ===============-->
-                    <div class="skills__content grid" data-content id="skills">
-                        <div class="skills__area">
-                            <h3 class="skills__title">Web Scraping</h3>
-    
-                            <div class="skills__box">
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Python</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Selenium</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Beautiful Soup</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Scrapy</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Zenrows</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">JavaScript</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Puppeteer</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Octoparse</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">ParseHub</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">CAPTCHAs</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="skills__area">
-                            <h3 class="skills__title">Artificial Intelligence</h3>
-    
-                            <div class="skills__box">
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Machine Learning</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">OpenAI</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">LLM</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Chatbot</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">LangChain</h3>
-                                        </div>
-                                    </div>
-
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">NLP</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!--=============== FOOTER ===============-->
-        <footer class="footer container">
-            <span class="footer__copy">
-                &#169; By Joshua Bennett
-            </span>
-        </footer>
-
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
-
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
 </html>
